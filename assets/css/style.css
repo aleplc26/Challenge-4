@@ -1,0 +1,314 @@
+:root
+{
+    --raleway:'Raleway';
+    --background-blanco: #F5F5F5;
+    --fuente-barra: #A2A2A2;
+    --fuente-banner:#FFFFFF;
+    --fuente-productos:#464646;
+    --fuente-productos-azul:#2A7AE4;
+}
+
+body
+{
+    font-family: 'Raleway';
+    font-weight: 700;
+    box-sizing: border-box;
+}
+
+header
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cabecera_container
+{
+    width: 85%;
+    height: 8vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: .85rem;
+    padding-bottom: .85rem;
+}
+
+.cabecera_Logo
+{
+    width: 9.3rem;
+}
+
+.busqueda
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 50%;
+}
+
+.busqueda_campo
+{
+    padding: .75rem;
+    border-radius: 1.25rem;
+    border: none;
+    background-color: var(--background-blanco);
+}
+
+.busqueda_campo:focus
+{
+    outline: none;
+}
+
+.Login
+{
+    width: 9rem;
+    height: 2.5rem;
+    font-size: 16px;
+    color: var(--fuente-productos-azul);
+    background-color: white;
+    border: 2px solid var(--fuente-productos-azul);
+}
+
+.contenido_container
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.banner
+{
+    display: flex;
+    flex-direction: column;
+    background-image: url(../assets//banner-logo.png);
+    background-size: cover;
+    background-position: center ;
+    position: static;
+    justify-content:  center;
+
+}
+
+.texto h1
+{
+    font-weight: 700;
+    font-size: 60px;
+    color: var(--fuente-banner);
+    margin-top: 80px;
+    margin-left: 120px;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.texto p
+{
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--fuente-banner);
+    margin-left: 7.5rem;
+    margin-bottom: 1.25rem;
+    text-align: left;
+}
+
+.consolas
+{
+    width: 6.8rem;
+    height: 3.1rem;
+    font-weight: 400;
+    background-color: var(--fuente-productos-azul);
+    color: white;
+    margin-left: 7.5rem;
+    margin-bottom: 1.5rem;
+    text-align: left;
+    border: none;
+
+}
+
+.button-busqueda
+{
+    margin-left: -50px;
+    border: none;
+    opacity: 50;
+    background-color: var(--background-blanco);
+}
+
+.button-busqueda-Login
+{
+    display: none;
+}
+
+.form
+{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.25rem; 
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 64px;
+    gap: 115px;
+    width: 1440px;
+    height: 368px; */
+    background: #EAF2FD;
+}
+
+.form--logo
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 1.25rem;
+}
+
+.informacion
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    align-items: center;
+    margin-top: 1.25rem;
+    /* display: flex;
+    flex-direction: column;
+    padding: 0px;
+    gap: 24px;
+
+    width: 176px;
+    height: 234px; */
+}
+
+.form__text
+{
+    width: 100%;
+    display: flex;
+   /*  flex-direction: column; */
+    /* justify-content: space-between; */
+    align-items: center;
+    margin-top: 1.25rem;
+    
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 0px;
+    gap: 8px;
+
+    width: 560px;
+    height: 240px;
+}
+
+
+.form__title
+{
+    /* width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; * /
+    align-items: center;
+    margin-top: 1.25rem; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 0px;
+    gap: 8px;
+
+    width: 560px;
+    height: 240px;
+}
+.form__form
+{
+    
+   /*  width: 100%;
+    display: flex;
+   flex-direction: column; 
+    /* justify-content: space-between; * /
+    align-items: center;
+    margin-top: 1.25rem; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 0px;
+    gap: 8px;
+
+    width: 560px;
+    height: 240px;
+}
+footer
+{
+    text-align: center;
+    padding: 20px 0px;
+}
+
+@media (min-width: 320px) and (max-width:768px)
+{
+    .busqueda
+    {
+        margin-right: 10%;
+    }
+
+    .busqueda_campo
+    {
+        display: none;
+    }
+
+    .texto h1
+    {
+        font-size: 22px;
+        margin-left: 1rem;
+    }
+
+    .texto p
+    {
+        font-size: 0.8rem;
+        margin-left: 1rem;
+
+    }
+
+    .Login
+    {
+        width: 6rem;
+
+    }
+
+    .consolas
+    {
+        margin-left: 1rem;
+        width: 7rem;
+        height: 2rem;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .button-busqueda
+    {
+        display: none;
+
+    }
+
+    .button-busqueda-Login
+    {
+        display: inline;
+        background-color: white;
+        border: none;
+        margin-left: 0.62rem;
+    }
+
+    .cabecera_container
+    {
+        width: 90%;
+    }
+
+    .cabecera_Logo
+    {
+        width: 7.5rem;
+    }
+}
+

@@ -1,0 +1,31 @@
+{
+    "producto": 
+    [
+        {
+            "name": "Producto XYZ",
+            "imageUrl": "https://a-static.mlcdn.com.br/800x560/adesivo-compativel-ps5-plastation",
+            "price":"10$",
+            "id":2,
+            "alt":"Product",
+            "section":"Star Wars",
+            "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, quod. Voluptate consequuntur, dolor perferendis blanditiis impedit veritatis illum voluptatum animi ut eaque ratione. Iusto, eveniet voluptatum tenetur ratione ipsam inventore."
+
+        },
+        {
+            "name": "Batman",
+            "imageUrl": "data:image/jpeg;base64,/9j/4AAQSKZJRgABAQAAAQABAAD/2wCEAAKGBwBNDw@PDgBF",
+            "price":"10$",
+            "description":"poster",
+            "id": 12
+
+        },
+        {
+            "name": "Superman",
+            "imageUrl": "data:image/jpeg;base64,/9j/4AAQSKZJRgABAQAAAQABAAD/2wCEAAoHCBYWFRgVFhUV",
+            "price":"10$",
+            "description":"50",
+            "id": 13
+
+        }
+    ]
+}
